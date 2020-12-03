@@ -1,9 +1,10 @@
 body {
-  font-family: "Roboto Mono", "monospace";
+  font-family: "Dosis", sans-serif;
+  background-color: rgb(102, 213, 180);
 }
 
 h1 {
-  color: rgb(50, 208, 108);
+  color: rgb(242, 119, 43);
 }
 
 h2 {
@@ -24,38 +25,38 @@ div img {
 }
 
 .navbar-brand {
-  background-color: rgb(50, 208, 108);
+  background-color: rgb(237, 140, 80);
   font-size: xx-large;
   padding: 0.5rem;
   border-radius: 20px;
 }
 
 .index-content {
-  background-color: rgba(255, 255, 255, 0.886);
+  background-color: rgb(255, 255, 255);
   border-width: 10px;
   border-radius: 20px;
   border-style: solid;
-  border-color: rgb(30, 43, 181);
+  border-color: rgb(201, 101, 153);
   padding: 20px;
   margin-top: 70px;
 }
 
 .portfolio-content {
-  background-color: rgba(255, 255, 255, 0.886);
+  background-color: rgb(255, 255, 255);
   border-width: 10px;
   border-radius: 20px;
   border-style: solid;
-  border-color: rgb(30, 43, 181);
+  border-color: rgb(201, 101, 153);
   padding: 20px;
   margin-top: 80px;
 }
 
 .contact-content {
-  background-color: rgba(255, 255, 255, 0.886);
+  background-color: rgb(255, 255, 255);
   border-width: 10px;
   border-style: solid;
   border-radius: 20px;
-  border-color: rgb(30, 43, 181);
+  border-color: rgb(201, 101, 153);
   padding: 20px;
   margin-top: 70px;
 }
@@ -76,5 +77,5 @@ div img {
   left: 0;
   z-index: 1030;
   line-height: 60px;
-  background-color: #93a1f1;
+  background-color: rgb(237, 140, 80);
 }
