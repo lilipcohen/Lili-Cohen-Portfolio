@@ -1,9 +1,9 @@
 body {
-  font-family: "Lobster", cursive;
+  font-family: "Roboto Mono", "monospace";
 }
 
 h1 {
-  color: rgb(252, 197, 240);
+  color: rgb(50, 208, 108);
 }
 
 h2 {
@@ -24,7 +24,7 @@ div img {
 }
 
 .navbar-brand {
-  background-color: rgb(252, 197, 240);
+  background-color: rgb(50, 208, 108);
   font-size: xx-large;
   padding: 0.5rem;
   border-radius: 20px;
@@ -35,8 +35,9 @@ div img {
   border-width: 10px;
   border-radius: 20px;
   border-style: solid;
-  border-color: rgb(255, 218, 186);
+  border-color: rgb(30, 43, 181);
   padding: 20px;
+  margin-top: 70px;
 }
 
 .portfolio-content {
@@ -44,8 +45,9 @@ div img {
   border-width: 10px;
   border-radius: 20px;
   border-style: solid;
-  border-color: rgb(255, 218, 186);
+  border-color: rgb(30, 43, 181);
   padding: 20px;
+  margin-top: 80px;
 }
 
 .contact-content {
@@ -53,8 +55,9 @@ div img {
   border-width: 10px;
   border-style: solid;
   border-radius: 20px;
-  border-color: rgb(255, 218, 186);
+  border-color: rgb(30, 43, 181);
   padding: 20px;
+  margin-top: 70px;
 }
 
 .container {
