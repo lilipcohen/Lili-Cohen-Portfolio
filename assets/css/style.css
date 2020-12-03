@@ -1,0 +1,73 @@
+body {
+  font-family: "Lobster", cursive;
+}
+
+h1 {
+  color: rgb(252, 197, 240);
+}
+
+h2 {
+  font-size: x-large;
+}
+
+h3 {
+  font-size: medium;
+}
+
+div img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.navbar-brand {
+  background-color: rgb(252, 197, 240);
+  font-size: xx-large;
+  padding: 0.5rem;
+  border-radius: 20px;
+}
+
+.index-content {
+  background-color: white;
+  border-width: 10px;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: rgb(255, 218, 186);
+  padding: 20px;
+}
+
+.portfolio-content {
+  background-color: white;
+  border-width: 10px;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: rgb(255, 218, 186);
+  padding: 20px;
+}
+
+.contact-content {
+  background-color: white;
+  border-width: 10px;
+  border-style: solid;
+  border-radius: 20px;
+  border-color: rgb(255, 218, 186);
+  padding: 20px;
+}
+
+.container {
+  max-width: 700px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.fixed-bottom {
+  position: fixed;
+  margin: auto;
+  height: 60px;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1030;
+  line-height: 60px;
+  background-color: #93a1f1;
+}
