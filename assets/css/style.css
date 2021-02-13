@@ -1,10 +1,23 @@
 body {
   font-family: "Dosis", sans-serif;
-  background-color: rgb(142, 220, 196);
+  background-color: white;
+}
+
+#nav-color {
+  background-color: #2e4caf;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.widen-image {
+  width: 100%;
+  height: 200px;
 }
 
 h1 {
-  color: rgb(242, 119, 43);
+  color: rgb(75, 120, 202);
 }
 
 h2 {
@@ -25,7 +38,7 @@ div img {
 }
 
 .navbar-brand {
-  background-color: rgb(237, 140, 80);
+  background-color: rgb(121, 208, 235);
   font-size: xx-large;
   padding: 0.5rem;
   border-radius: 20px;
@@ -36,7 +49,7 @@ div img {
   border-width: 10px;
   border-radius: 20px;
   border-style: solid;
-  border-color: rgb(201, 101, 153);
+  border-color: rgb(235, 172, 205);
   padding: 20px;
   margin-top: 70px;
 }
@@ -46,7 +59,7 @@ div img {
   border-width: 10px;
   border-radius: 20px;
   border-style: solid;
-  border-color: rgb(201, 101, 153);
+  border-color: rgb(235, 172, 205);
   padding: 20px;
   margin-top: 80px;
 }
@@ -56,7 +69,7 @@ div img {
   border-width: 10px;
   border-style: solid;
   border-radius: 20px;
-  border-color: rgb(201, 101, 153);
+  border-color: rgb(235, 172, 205);
   padding: 20px;
   margin-top: 70px;
 }
@@ -66,7 +79,7 @@ div img {
   border-width: 10px;
   border-style: solid;
   border-radius: 20px;
-  border-color: rgb(201, 101, 153);
+  border-color: rgb(235, 172, 205);
   padding: 20px;
   margin-top: 70px;
 }
@@ -87,5 +100,5 @@ div img {
   left: 0;
   z-index: 1030;
   line-height: 60px;
-  background-color: rgb(237, 140, 80);
+  background-color: rgb(121, 208, 235);
 }
