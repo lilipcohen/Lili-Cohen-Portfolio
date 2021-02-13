@@ -61,6 +61,16 @@ div img {
   margin-top: 70px;
 }
 
+.resume-content {
+  background-color: rgb(255, 255, 255);
+  border-width: 10px;
+  border-style: solid;
+  border-radius: 20px;
+  border-color: rgb(201, 101, 153);
+  padding: 20px;
+  margin-top: 70px;
+}
+
 .container {
   max-width: 700px;
   margin-top: 20px;
