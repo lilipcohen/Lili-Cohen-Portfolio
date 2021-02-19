@@ -1,10 +1,10 @@
 body {
   font-family: "Dosis", sans-serif;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
 }
 
 #nav-color {
-  background-color: #2e4caf;
+  background-color: #2169bb;
 }
 
 .text-center {
@@ -13,15 +13,20 @@ body {
 
 .widen-image {
   width: 100%;
-  height: 200px;
+  height: 300px;
 }
 
 h1 {
-  color: rgb(75, 120, 202);
+  color: #2169bb;
 }
 
 h2 {
-  font-size: x-large;
+  font-size: 40px;
+  color: #2169bb;
+}
+
+a {
+  color: #2169bb;
 }
 
 h3 {
@@ -29,76 +34,99 @@ h3 {
 }
 
 div img {
-  width: 100%;
+  width: 60%;
   margin-bottom: 10px;
 }
 
-.rounded {
-  border-radius: 10px;
+.background-img {
+  border-bottom: solid;
+  border-color: #2169bb;
 }
 
-.navbar-brand {
-  background-color: rgb(121, 208, 235);
-  font-size: xx-large;
-  padding: 0.5rem;
-  border-radius: 20px;
+* {
+  box-sizing: border-box;
 }
 
-.index-content {
-  background-color: rgb(255, 255, 255);
-  border-width: 10px;
-  border-radius: 20px;
-  border-style: solid;
-  border-color: rgb(235, 172, 205);
-  padding: 20px;
-  margin-top: 70px;
-}
-
-.portfolio-content {
-  background-color: rgb(255, 255, 255);
-  border-width: 10px;
-  border-radius: 20px;
-  border-style: solid;
-  border-color: rgb(235, 172, 205);
-  padding: 20px;
-  margin-top: 80px;
-}
-
-.contact-content {
-  background-color: rgb(255, 255, 255);
-  border-width: 10px;
-  border-style: solid;
-  border-radius: 20px;
-  border-color: rgb(235, 172, 205);
-  padding: 20px;
-  margin-top: 70px;
-}
-
-.resume-content {
-  background-color: rgb(255, 255, 255);
-  border-width: 10px;
-  border-style: solid;
-  border-radius: 20px;
-  border-color: rgb(235, 172, 205);
-  padding: 20px;
-  margin-top: 70px;
-}
-
-.container {
-  max-width: 700px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-.fixed-bottom {
-  position: fixed;
+/* Slideshow container */
+.slideshow-container {
+  max-width: 500px;
+  position: relative;
   margin: auto;
-  height: 60px;
-  width: 100%;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
   right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: 1030;
-  line-height: 60px;
-  background-color: rgb(121, 208, 235);
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
 }

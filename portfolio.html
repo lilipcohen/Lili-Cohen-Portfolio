@@ -5,107 +5,78 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Lili Cohen Portfolio</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
     <link rel="stylesheet" text="text/css" href="assets/css/style.css">
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#" style="color: white;">Lili Cohen</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <section class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-                 <li class="nav-item">
-                    <a class="nav-link" href="resume.html">Resume</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="portfolio.html">Portfolio <span
-                            class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">About</a>
-                </li>
-            </ul>
-        </section>
-    </nav>
-    <main class="container">
-        <section class="row">
-            <div class="col-sm-12">
-                <div class="portfolio-content">
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <h1>Portfolio</h1>
-                            <hr>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <h2>Griffin-Oskar</h2>
-                            <h3><a href="https://katnguyenn.github.io/project1/">Deployed Link</a></h3>
-                            <h3><a href="https://github.com/katnguyenn/project1.git">Github Repo</a></h3>
-                            <img src="assets/images/project1.png" alt="website page featuring a youtube video and navigation bars">
-                            
-                        </div>
-                        <div class="col-sm-6">
-                            <h2>Northwest Veg</h2>
-                            <h3><a href="https://northwest-veg.herokuapp.com/">Deployed Link</a></h3>
-                            <h3><a href="https://github.com/lilipcohen/Northwest-Veg">Github Repo</a></h3>
-                            <img src="assets/images/northwest-veg.png" alt="webpage with a random password and generating buttons">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <h2>Work Day Scheduler</h2>
-                            <h3><a href="https://lilipcohen.github.io/daily-schedule/">Deployed Link</a></h3>
-                            <h3><a href="https://github.com/lilipcohen/daily-schedule.git">Github Repo</a></h3>
-                            <img src="assets/images/daily-scedule.png" alt="website page featuring a youtube video and navigation bars">
-                        
-                        </div>
-                        <div class="col-sm-6">
-                            <h2>Burger</h2>
-                            <h3><a href="https://polar-meadow-39319.herokuapp.com/">Deployed Link</a></h3>
-                            <h3><a href="https://github.com/lilipcohen/burger">Github Repo</a></h3>
-                            <img src="assets/images/burger.png" alt="website page featuring a pug holding a burger">
-                        
-                        </div>
-                    </div>
-                    
+    <a href="#" data-target="slide-out" class="sidenav-trigger"><i style="color:#2169bb;"
+            class="medium material-icons">menu</i></a>
+    <h1 class="text-center">Portfolio</h1>
+<ul id="slide-out" class="sidenav">
+        <li>
+            <div class="user-view">
+                <div class="background">
+                    <img src="./assets/images/background.png">
                 </div>
-        </section>
-    </main>
-    <footer class="container">
-        <div class="row">
-            <div class="fixed-bottom">
-                <div class="row">
-                    <div class="col-xs-3 col-sm-6">
-                        <p style="text-align: center;">Copyright</p>
-                    </div>
-                    <div class="col-xs-3 col-sm-6">
-                        <p style="text-align: center;">By:Lili Cohen</p>
-                    </div>
-                </div>
+                <img class="circle" src="./assets/images/profile.png">
+                <a href="#name"><span class="white-text name">Lili Cohen</span></a>
+                <a href="#email"><span class="white-text email">lili.cohen.tv@gmail.com</span></a>
+            </div>
+        </li>
+        <li><a class="waves-effect" href="contact.html">Contact</a></li>
+        <li>
+            <div class="divider"></div>
+        </li>
+        <li><a class="waves-effect" href="portfolio.html">Portfolio</a></li>
+        <li>
+            <div class="divider"></div>
+        </li>
+        <li><a class="waves-effect" href="index.html">About</a></li>
+    </ul>
+    <div class="row background-outline text-center">
+    
+        <div class="col s12 m12 l12">
+            <div class="background-img">
+                <img src="assets/images/project1.png" alt="website page featuring a youtube video and navigation bars">
+                    <p><a href="https://katnguyenn.github.io/project1/">Deployed Link</a> </p>
+                    <p><a href="https://github.com/katnguyenn/project1.git">Github Repo</a></p>
+            </div>
+            <br>
+            <br>
+            <br>
+            <div class="background-img">
+                <img src="assets/images/northwest-veg.png" alt="webpage with a random password and generating buttons">
+                <p><a href="https://northwest-veg.herokuapp.com/">Deployed Link</a></p>
+                <p><a href="https://github.com/lilipcohen/Northwest-Veg">Github Repo</a></p>
+            </div class="background-img">
+            <br>
+            <br>
+            <br>
+            <div class="background-img">
+                <img src="assets/images/burger.png" alt="website page featuring a pug holding a burger">
+                <p><a href="https://polar-meadow-39319.herokuapp.com/">Deployed Link</a></p>
+                <hp><a href="https://github.com/lilipcohen/burger">Github Repo</a></p>
+            </div>
+            <br>
+            <br>
+            <br>
+            <div>
+                <img src="assets/images/daily-scedule.png" alt="website page featuring a youtube video and navigation bars">
+                <p><a href="https://lilipcohen.github.io/daily-schedule/">Deployed Link</a></p>
+                <p><a href="https://github.com/lilipcohen/daily-schedule.git">Github Repo</a></p>
             </div>
         </div>
-    </footer>
+    
+    </div>
     <!-- Javascript -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
-        </script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-        </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
-        </script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="./assets/javascript/script.js"></script>
 </body>
 
 </html>
